@@ -23,7 +23,7 @@ document.getElementById("addArr").onclick = function() {
     data.push({name: String(arrName), dat: "",});
     ud();
     alert("Tömb létrehozva!");
-    window.location.href = "arrGen.html";
+    window.location.href = "index.html";
   }
 }
 
@@ -50,7 +50,7 @@ function loadArr(arr, doc) {
     data.splice(arr, 1);
     ud();
     alert("Tömb törölve!");
-    window.location.href = "arrGen.html";
+    window.location.href = "index.html";
   }
   
   document.getElementById("addKey").onclick = function() {
@@ -59,7 +59,7 @@ function loadArr(arr, doc) {
       data[arr].dat = this.value.split(",");
       ud();
       alert("Kulcsok elmentve!");
-      window.location.href = "arrGen.html";
+      window.location.href = "index.html";
     }
   }
 }
