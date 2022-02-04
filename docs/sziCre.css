@@ -1,0 +1,14 @@
+body {
+  font-family: "Arial";
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 250%;
+  background-attachment: fixed;
+}
+
+button {
+  background-color: gray;
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+}

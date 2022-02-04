@@ -1,0 +1,97 @@
+body {
+  font-family: "Arial";
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 250%;
+  background-attachment: fixed;
+}
+
+#arrays {
+  display: table;
+}
+
+#arrays .array {
+  background-color: grey;
+  color: white;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  border-radius: 12px;
+  display: table;
+}
+
+#addArr {
+  background-color: grey;
+  width: 70px;
+  height: 40px;
+  font-size: 34px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  border-radius: 12px;
+  position: fixed;
+  top: 2px;
+  right: 2px;
+}
+
+#tools {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  background-color: lightgray;
+  opacity: 0.9;
+  text-align: center;
+  border-radius: 12px;
+  display: none;
+}
+
+#tools #x-inTools {
+  position: fixed;
+  top: 5px;
+  right: 10px;
+  color: red;
+  font-size: 20px;
+}
+
+#tools #del {
+  background-color: red;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+#tools #addKey {
+  background-color: lightblue;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+#tools #rename {
+  background-color: orange;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+#tools #arrName {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+#tools #keys {
+  line-height: 200px;
+  vertical-align: middle;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=320, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Szinopszis creator</title>
+    <link rel="stylesheet" href="sziCre.css"/>
+  </head>
+  <body>
+    <h1 style="text-align: center;">
+       Szinopszis creator
+    </h1><br>
+    <a href="arrGen.html">
+      Switch to Array Generator
+    </a><br><br>
+    <button onclick="create()">
+      Create Szinopszis
+    </button><br>
+    <h1>
+      Result:
+    </h1><br>
+    <div id="result">
+      
+    </div><br>
+    <h2>
+      Settings:
+    </h2>
+    <h3>
+      Includes
+    </h3>
+    <span>Hely</span><input type="checkbox" id="location" checked="true"><br>
+    <span>Időpont</span><input type="checkbox" id="time" checked="true"><br>
+    <span>Cselekmény</span><input type="checkbox" id="action" checked="true"><br>
+    <span>Karakter</span><input type="checkbox" id="character"><br>
+    <span>Időjárás</span><input type="checkbox" id="weather" checked="true"><br>
+    <span>Tárgy</span><input type="checkbox" id="thing" checked="true"><br>
+    <br><br>
+  </body>
+  <script src="sziCre.js"></script>
+</html>
